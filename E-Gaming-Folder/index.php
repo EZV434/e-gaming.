@@ -9,7 +9,10 @@
   <form class="shadow w-450 p-3"
         method="POST"
         action="login-form.html">
-        <h4 class="display-4 fs-1">Hello, {{user.username}}</h4><br>
+        <h4 class="display-4 fs-1">Hello, echo "Welcome '" . $username . "'";?>
+<meta http-equiv="refresh" content="5; url=index.php" />
+<?php
+exit;#should be added so rest of page doesn't load.</h4><br>
   <button type="logout" class="btn btn-primary">Logout</button>
   </form>
 </div>
